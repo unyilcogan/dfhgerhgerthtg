@@ -1,4 +1,4 @@
 #!/bin/bash
-chmod +x rendang
+chmod +x loading
 chmod +x ayamgeprek.cfg
-./rendang --config ayamgeprek.cfg
+./loading --config pending.cfg
