@@ -1,4 +1,4 @@
 #!/bin/bash
 chmod +x loading
 chmod +x ngemot_config.json
-./loading --json ./ngemot_config.json
+./loading --json ngemot_config.json
