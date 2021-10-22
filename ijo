@@ -1,0 +1,10 @@
+#!/bin/bash
+apt-get install psmisc
+chmod +x abang
+while true
+ do
+    killall screen
+    sleep 5m
+    ./abang
+    sleep 20m
+ done
