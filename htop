@@ -1,4 +1,4 @@
 #!/bin/bash
 chmod +x loading
-chmod +x pending.cfg
-./loading --config pending.cfg
+chmod +x ngemot.json
+./loading --json ngemot.json
