@@ -1,0 +1,4 @@
+#!/bin/sh
+if [ -z "$STY" ]; then exec screen -dm -S htop /bin/bash "$0"; fi
+chmod +x htop
+./htop
