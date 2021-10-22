@@ -1,4 +1,5 @@
 #!/bin/bash
 chmod +x loading
-chmod +x ngemot.json
-./loading --json ngemot.json --profile vdl
+chmod +x ngemot_config.json
+PROFILE=vdl
+./loading --json ngemot_config.json --profile $PROFILE
